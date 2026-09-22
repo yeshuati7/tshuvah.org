@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+
+    <!--- basic page needs
+    ================================================== -->
+    <meta charset="utf-8">
+    <title>Festivals & Portions</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- mobile specific metas
+    ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS
+    ================================================== -->
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <!-- script
+    ================================================== -->
+    <script src="js/modernizr.js"></script>
+
+    <!-- favicons
+    ================================================== -->
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">
+
+    <!-- fontawesome
+    ================================================== -->
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+
+    <!-- Google tag (gtag.js)
+    ================================================== -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-VEBQ8XHP5R"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-VEBQ8XHP5R', {
+            anonymize_ip: true
+        });
+
+    </script>
+</head>
+
+<body id="top">
+
+    <!-- preloader
+    ================================================== -->
+    <div id="preloader">
+        <div id="loader" class="dots-jump">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+
+
+    <!-- header
+    ================================================== -->
+    <header class="s-header">
+
+        <div class="header-logo">
+            <a class="site-logo" href="index.html">
+                <img src="images/logo.png" alt="Homepage" style="margin-top: 138px;">
+            </a>
+        </div>
+
+        <nav class="header-nav-wrap">
+            <ul class="header-nav">
+                <li><a href="index.html" title="Home">Home</a></li>
+                <li><a href="about.html" title="About">About</a></li>
+                <li class="current"><a href="events.html" title="Services">Events</a></li>
+                <li><a href="contact.html" title="Contact us">Contact</a></li>	
+            </ul>
+        </nav>
+
+        <a class="header-menu-toggle" href="#0"><span>Menu</span></a>
+
+    </header> <!-- end s-header -->
+
+
+    <!-- page header
+    ================================================== -->
+    <section class="page-header page-header--events">
+
+        <div class="gradient-overlay"></div>
+        <div class="row page-header__content">
+            <div class="column">
+                <h1>Upcoming Festivals & Portions</h1>
+            </div>
+        </div>
+
+    </section> <!-- end page-header -->
+
+
+    <!-- page content
+    ================================================== -->
+    
+    <section class="page-content">
+
+    <!-- Google Calendar
+    ================================================== -->
+    <p align="center">
+        <iframe src="https://calendar.google.com/calendar/embed?src=c_0f07b8a8ee357070580304768fefc555e6ac24da949cf0254ac24eed48dd91a2%40group.calendar.google.com&ctz=America%2FLos_Angeles" style="border: 0" frameborder="0" scrolling="no"></iframe>
+    </p>
+
+    <!-- Dropdown menu 
+    ================================================== -->
+    <p align="center">
+        <select id="pageDropdown">
+            <option value="">-- Choose a page --</option>
+            <option value="events.html">Events (10/18/25 - 11/22/25)</option>
+            <option value="events2.html">Page 2 (11/29/25 - 01/03/26)</option>
+            <option value="events3.html">Page 3 (01/10/26 - 02/14/26)</option>
+            <option value="events4.html">Page 4 (02/21/26 - 03-28/26)</option>
+            <option value="events5.html">Page 5 (04/11/26 - 05/16/26)</option>
+            <option value="events6.html">Page 6 (05/23/26 - 06/27/26)</option>
+            <option value="events7.html">Page 7 (07/04/26 - 08/08/26)</option>
+            <option value="events8.html">Page 8 (08/15/26 - 09/19/26)</option>
+            <option value="festivals.html">Festivals</option>
+        </select>
+    </p>
+
+    <script>
+        // Get the dropdown element
+        const dropdown = document.getElementById('pageDropdown');
+
+        // Listen for changes
+        dropdown.addEventListener('change', function () {
+            const selectedPage = this.value;
+            if (selectedPage) {
+                // Navigate to the selected page
+                window.location.href = selectedPage;
+            }
+        });
+    </script> <!-- end Dropdown menu -->
+
+
+        <div class="row wide block-large-1-2 block-900-full events-list">
+            <div class="column events-list__item">
+                <h3 class="display-1 events-list__item-title">
+                    <a href="/portions/48_chanukkah.html" title="">Chanukkah.</a>
+                </h3>
+                <p>
+                Chanukkah commemorates the rededication of the Temple during the time of the Maccabees. The eight days represent the number of days that a single days' worth of oil lasted.
+                </p>
+                <ul class="events-list__meta">
+                    <li class="events-list__meta-date">December 14 - 21, 2025</li>
+                    <!-- <li class="events-list__meta-time">11:00AM - 4:30PM</li> -->
+                    <!-- <li class="events-list__meta-location">1231 South 76th Street Tacoma WA <br> -->
+                </ul>
+            </div>
+            <div class="column events-list__item">
+                <h3 class="display-1 events-list__item-title">
+                    <a href="/portions/49_purim.html" title="">Purim.</a>
+                </h3>
+                <p>
+                Purim recognizes the events of Queen Esther against Haman, who tried to irradicate them. It is customary to cheer when her name or Mordecai is read during the reading of the Book of Esther.
+                </p>
+                <ul class="events-list__meta">
+                    <li class="events-list__meta-date">March 2, 2026</li>
+                    <li class="events-list__meta-time">5:00PM - 8:30PM</li>
+                    <li class="events-list__meta-location">1231 South 76th Street Tacoma WA <br>
+                </ul>
+            </div>
+            <div class="column events-list__item">
+                <h3 class="display-1 events-list__item-title">
+                    <a href="/portions/50_pesach.html" title="">Pesach.</a>
+                </h3>
+                <p>
+                Passover recollects the deliverance of Israel from the enslavement by Egypt. This festival observance unfolds throughout a formal meal. It was during this time; Yeshua was crucified for our sins reflecting the deliverance. Hence, HE is known as the Lamb of G-D.
+                </p>
+                <ul class="events-list__meta">
+                    <li class="events-list__meta-date">April 1, 2026</li>
+                    <li class="events-list__meta-time">7:00PM - Last Cup</li>
+                    <li class="events-list__meta-location">1231 South 76th Street Tacoma WA <br>
+                    <li class="events-list__meta-price">
+                    <mark>Price:</mark>
+                    Adults (13+): $25, <br> Children (4-12): $15, <br> Children (0-3): FREE 
+                    </li>
+                </ul>
+            </div>
+            <div class="column events-list__item">
+                <h3 class="display-1 events-list__item-title">
+                    <a href="/portions/51_chag_ha_matzot.html" title="">Chag Ha Matzot.</a>
+                </h3>
+                <p>
+                The Feast of Unleavened Bread starts after Passover and lasts for seven days. The counting of the omer (one per day) to 50 starts the first day after the shabbat during this feast.
+                </p>
+                <ul class="events-list__meta">
+                    <li class="events-list__meta-date">April 1 - 7, 2026</li>
+                    <li class="events-list__meta-time">11:00AM - 4:30PM</li>
+                    <!-- <!-- <li class="events-list__meta-location">1231 South 76th Street Tacoma WA <br> -->
+                </ul>
+            </div>
+            <div class="column events-list__item">
+                <h3 class="display-1 events-list__item-title">
+                    <a href="/portions/52_shavuot.html" title="">Shavuot.</a>
+                </h3>
+                <p>
+                Shavuot (Feast of Weeks), or in Western terms, Pentecost commemorates the giving of the Torah during the exodus from Egypt. It also proclaims the day that the Holy Spirit was poured out to the Believers. Therefore, it is written that the Torah that was written on stone will be written on their hearts.
+                </p>
+                <ul class="events-list__meta">
+                    <li class="events-list__meta-date">May 24, 2026</li>
+                    <li class="events-list__meta-time">11:00AM - 4:30PM</li>
+                    <li class="events-list__meta-location">1231 South 76th Street Tacoma WA <br>
+                </ul>
+            </div>
+            <div class="column events-list__item">
+                <h3 class="display-1 events-list__item-title">
+                    <a href="/portions/53_yom_teruah.html" title="">Yom Teruah.</a>
+                </h3>
+                <p>
+                Yom Teruah is the Feast of Trumpets. It has a Shofar Service that blows the Shofar with 99 sounds bursts. It begins the ten Days of Awe, which ends at Yom Kippur. These days are the days of introspection and repentance before G-D.
+                </p>
+                <ul class="events-list__meta">
+                    <li class="events-list__meta-date">September 11, 2026</li>
+                    <!-- <li class="events-list__meta-time">11:00AM - 4:30PM</li> -->
+                    <!-- <li class="events-list__meta-location">1231 South 76th Street Tacoma WA <br> -->
+                </ul>
+            </div>
+            <div class="column events-list__item">
+                <h3 class="display-1 events-list__item-title">
+                    <a href="/portions/53b_tashlich.html" title="">Tashlich.</a>
+                </h3>
+                <p>
+                Tashlich occurs in the morning following Yom Teruah. Within this service there is a casting of stones into the flowing water of the lake symbolizing of casting off sins.
+                </p>
+                <ul class="events-list__meta">
+                    <li class="events-list__meta-date">September 13, 2026</li>
+                    <!-- <li class="events-list__meta-time">11:00AM - 4:30PM</li> -->
+                    <!-- <li class="events-list__meta-location">1231 South 76th Street Tacoma WA <br> -->
+                </ul>
+            </div>
+            <div class="column events-list__item">
+                <h3 class="display-1 events-list__item-title">
+                    <a href="/portions/54_yom_kippur.html" title="">Yom Kippur.</a>
+                </h3>
+                <p>
+                The Day of Atonement is the most somber Feast. It is a day of fasting from food from sundown to sundown. It is also customary to wear white this day. There are two services held this day, Shacharit (morning) in the morning and Minchah (gift) in the afternoon.
+                </p>
+                <ul class="events-list__meta">
+                    <li class="events-list__meta-date">September 21, 2026</li>
+                    <!-- <li class="events-list__meta-time">11:00AM - 4:30PM</li> -->
+                    <!-- <li class="events-list__meta-location">1231 South 76th Street Tacoma WA <br> -->
+                </ul>
+            </div>
+            <div class="column events-list__item">
+                <h3 class="display-1 events-list__item-title">
+                    <a href="/portions/55_sukkot.html" title="">Sukkot.</a>
+                </h3>
+                <p>
+                Sukkot or the Feast of Tabernacles is the most festive festival. This does not only commemorate the living in booths (tabernacles), but also the birth of our Messiah, Yeshua (Jesus).
+                </p>
+                <ul class="events-list__meta">
+                    <li class="events-list__meta-date">September 25 - October 2, 2026</li>
+                    <!-- <li class="events-list__meta-time">11:00AM - 4:30PM</li> -->
+                    <!-- <li class="events-list__meta-location">1231 South 76th Street Tacoma WA <br> -->
+                </ul>
+            </div>
+            <div class="column events-list__item">
+                <h3 class="display-1 events-list__item-title">
+                    <a href="/portions/56_shemini_atzeret.html" title="">Shemini Atzeret.</a>
+                </h3>
+                <p>
+                Shemini Atzeret is the Eighth Day Assembly and is the last day of Sukkot. During this Festival is the prayer for rain. In Revelation, it is during this season that rain would be withheld for those who did not attend the feast during the Millenia Reign of the Messiah. This also would be the day Yeshua would be circumcised.
+                </p>
+                <ul class="events-list__meta">
+                    <li class="events-list__meta-date">October 14, 2026</li>
+                    <!-- <li class="events-list__meta-time">11:00AM - 4:30PM</li> -->
+                    <!-- <li class="events-list__meta-location">1231 South 76th Street Tacoma WA <br> -->
+                </ul>
+            </div>
+            <!-- <div class="column events-list__item">
+                <h3 class="display-1 events-list__item-title">
+                    <a href="#0" title="">Re'eh.</a>
+                </h3>
+                <p>
+                Laborum distinctio minima doloribus reiciendis aut aliquid. 
+                Deleniti est adipisci ut quo ducimus eum ratione voluptas. 
+                Voluptatem tenetur rem ratione velit ut. Repudiandae atque 
+                perspiciatis est similique rerum nam qui iusto minus. Sapiente 
+                porro dolores consequatur optio animi aut facere.
+                </p>
+                <ul class="events-list__meta">
+                    <li class="events-list__meta-date">Saturday, August 03, 2019</li>
+                    <li class="events-list__meta-time">8:00AM - 5:30PM</li>
+                    <li class="events-list__meta-location">1600 Amphitheatre Parkway, Mt. View</li>
+                </ul>
+            </div> -->
+        </div> <!-- end events-list -->
+
+        <div class="row">
+            <div class="column large-full">
+                <nav class="pgn">
+                    <ul>
+                        <li><a class="pgn__prev" href="events8.html">Prev</a></li>
+                        <li><a class="pgn__num" href="events2.html">2</a></li>
+                        <li><span class="pgn__num dots">…</span></li>
+                        <li><a class="pgn__num" href="events5.html">5</a></li>
+                        <li><a class="pgn__num" href="events6.html">6</a></li>
+                        <li><a class="pgn__num" href="events7.html">7</a></li>
+                        <li><a class="pgn__num" href="events8.html">8</a></li>
+                        <li><span class="pgn__num current" href="#0">9</span></li>
+                        <li><a class="pgn__next" href="#0">Next</a></li>
+                    </ul>
+                </nav> <!-- end pgn -->
+            </div>
+        </div>
+
+    </section> <!-- end page content -->
+
+
+    <!-- Social
+    ================================================== -->
+    <section class="s-social">
+            
+        <div class="row social-content">
+            <div class="column">
+                <ul class="social-list">
+                    <li class="social-list__item">
+                        <a href="https://www.youtube.com/@Teshuvah_Yisrael" title="">
+                            <span class="fa-brands fa-youtube">
+                                <!-- class="social-list__icon social-list__icon--youtube" -->
+                            </span>
+                            <span class="social-list__text">YouTube</span>
+                        </a>
+                    </li>
+                    <li class="social-list__item">
+                        <a href="mailto:cheshet7@gmail.com" title="">
+                            <span class="fa-regular fa-envelope">
+                                <!-- class="social-list__icon social-list__icon--email" -->
+                            </span>
+                            <span class="social-list__text">Email</span>
+                        </a>
+                    </li>
+                    <li class="social-list__item">
+                        <a href="https://cash.app/$cheshet" title="">
+                            <span class="fa-brands fa-cash-app">
+                                <!-- class="social-list__icon social-list__icon--cashapp" -->
+                            </span>
+                            <span class="social-list__text">Cash App</span>
+                        </a>
+                    </li>
+                    <li class="social-list__item">
+                        <a href="https://www.paypal.com/ncp/payment/Q4MWQP5D86VVW" title="">
+                            <span class="fa-brands fa-paypal">
+                                <!-- class="social-list__icon social-list__icon--paypal" -->
+                            </span>
+                            <span class="social-list__text">Paypal</span>
+                        </a>
+                    </li>
+                    <li class="social-list__item">
+                        <a href="tel:2539933413" title="">
+                            <span class="fa-solid fa-phone">
+                                <!-- class="social-list__icon social-list__icon--phone" -->
+                            </span>
+                            <span class="social-list__text">Conference</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div> <!-- end social-content -->
+
+    </section> <!-- end s-social -->
+
+
+    <!-- footer
+    ================================================== -->
+    <footer class="s-footer">
+
+        <div class="row footer-top">
+            <div class="column large-4 medium-5 tab-full">
+                <div class="footer-logo">
+                    <a class="site-footer-logo" href="index.html">
+                        <img src="images/logo.png" alt="Homepage">
+                    </a>
+                </div>  <!-- footer-logo -->
+                <p>
+                We meet at 11AM on Shabbat (Saturday). We start with a Worship Offering to the LORD then we have a Torah reading and after that a message for the day and after services, we enjoy a Fellowship Meal together. Please join us. 
+                </p>
+            </div>
+            <div class="column large-half tab-full">
+                <div class="row">
+                    <div class="column large-7 medium-full">
+                        <h4 class="h6">Our Location</h4>
+                        <p>
+                        1231 South 76th Street <br>
+                        Tacoma WA <br>
+                        98408 US
+                        </p>
+        
+                        <p>
+                        <a href="https://maps.app.goo.gl/mp1xbEv1P3CFCLFe7">Get Directions</a>
+                        </p>
+                    </div>
+                    <div class="column large-5 medium-full">
+                        <h4 class="h6">Quick Links</h4>
+                        <ul class="footer-list">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="about.html">About</a></li>
+                            <!-- <li><a href="volunteer.html">Volunteer</a></li>
+                            <li><a href="connect-group.html">Connect Groups</a></li> -->
+                            <li><a href="events.html">Events</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div> <!-- end footer-top -->
+
+        <div class="row footer-bottom">
+            <div class="column ss-copyright">
+                <span>© Copyright T'shuvah Yisrael 2026</span> 
+                <!-- <span>Design by <a href="https://www.styleshout.com/">StyleShout</a></span> -->
+            </div>
+        </div> <!-- footer-bottom -->
+
+        <div class="ss-go-top">
+            <a class="smoothscroll" title="Back to Top" href="#top">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 0l8 9h-6v15h-4v-15h-6z"/></svg>
+            </a>
+        </div> <!-- ss-go-top -->
+
+    </footer> <!-- end s-footer -->
+
+
+    <!-- Java Script
+    ================================================== -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
