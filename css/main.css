@@ -1604,9 +1604,9 @@ input::-moz-focus-inner {
 }
 
 .display-1 {
-  font-family: "Tango BT", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 700;
-  font-size: 4.5rem;
+  font-size: 3.6rem;
   line-height: 1.222;
   margin-top: 0;
   margin-bottom: 2.8rem;
@@ -1743,7 +1743,7 @@ input::-moz-focus-inner {
  * ------------------------------------------------------------------- */
 @media screen and (max-width:1200px) {
   .display-1 {
-    font-size: 4.75rem;
+    font-size: 3.2rem;
   }
 
 }
