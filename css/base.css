@@ -365,6 +365,7 @@ td {
 }
 
 p {
+	font-family: AR Essence;
 	font-size: inherit;
 	text-rendering: optimizeLegibility;
 }
